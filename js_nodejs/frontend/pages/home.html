@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/frontend/images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="/frontend/styles/home.css">
+
+    <title> Home </title>
+</head>
+
+<body>
+    <header id="mainHeader" class="mainHeader">
+        <form id="searchBox" class="searchBox" action="http://localhost/?search" method="get">
+            <input type="text" name="search"
+            placeholder="Search" inputmode="latin" list="anime-names" spellcheck="false">
+            <button type="submit" id="searchButton">
+                <img src="/frontend/images/search.png" width="100%" height="100%">
+            </button>
+        </form>
+    </header>
+    <div id="dynamicDiv" class="page"></div>
+    <div id="pagesList" class="pagesList"></div>
+    <script type="module" src="/frontend/scripts/home_Page.js"></script>
+
+    <datalist id="animeNames"></datalist>
+    <script type="module" src="/frontend/scripts/datalists.js"></script>
+</body>
+
+</html>
