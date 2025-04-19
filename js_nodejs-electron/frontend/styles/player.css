@@ -1,0 +1,20 @@
+* {
+    font-family: 'Trebuchet MS';
+    font-stretch: narrower;
+    font-style: normal;
+    /* color: rgb(235, 235, 235); */
+
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+
+body {
+    background-color: rgb(35, 35, 45);
+    display: grid;
+}
+
+.player {
+    position: relative;
+    width: 60%;
+}
