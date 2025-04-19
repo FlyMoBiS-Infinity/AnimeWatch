@@ -1,3 +1,3 @@
 # AnimeWatch
 
-created in 2022-2023
+created in 2022/2023
